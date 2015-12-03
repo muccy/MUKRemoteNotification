@@ -2,6 +2,29 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../MUKRemoteNotification.podspec">
+   </FileRef>
+   <Group
+      location = "group:../Classes"
+      name = "Classes">
+      <Group
+         location = "group:Alert"
+         name = "Alert">
+         <FileRef
+            location = "group:MUKRemoteNotificationAlert.h">
+         </FileRef>
+         <FileRef
+            location = "group:MUKRemoteNotificationAlert.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:MUKRemoteNotification.h">
+      </FileRef>
+      <FileRef
+         location = "group:MUKRemoteNotification.m">
+      </FileRef>
+   </Group>
+   <FileRef
       location = "group:Tests.xcodeproj">
    </FileRef>
    <FileRef

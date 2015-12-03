@@ -16,6 +16,6 @@
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "*.{h,m}",
+  "source_files": "Classes/**/*.{h,m}",
   "compiler_flags": "-Wdocumentation"
 }
