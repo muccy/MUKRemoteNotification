@@ -16,6 +16,9 @@
          <FileRef
             location = "group:MUKRemoteNotificationAlert.m">
          </FileRef>
+         <FileRef
+            location = "group:MUKRemoteNotificationAlert+Localization.h">
+         </FileRef>
       </Group>
       <FileRef
          location = "group:MUKRemoteNotification.h">

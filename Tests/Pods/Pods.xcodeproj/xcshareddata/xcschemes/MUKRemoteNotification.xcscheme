@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F8634C9F6BD294CAF89A6265'
+               BlueprintIdentifier = '880133591E13D63CB71BB6C4'
                BlueprintName = 'MUKRemoteNotification'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libMUKRemoteNotification.a'>

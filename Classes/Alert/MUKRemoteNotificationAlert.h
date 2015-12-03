@@ -17,11 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, readonly, copy, nullable) NSString *title;
 /// The text of the alert message.
-@property (nonatomic, readonly, copy) NSString *text;
-/**
- The string is used as a key to get a localized string in the current localization 
- to use for the right button’s title instead of “View”
- */
+@property (nonatomic, readonly, copy, nullable) NSString *text;
+/// A string to use for the right button’s title instead of “View”
 @property (nonatomic, readonly, copy, nullable) NSString *customActionName;
 /**
  The filename of an image file in the app bundle; it may include the extension 
@@ -31,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly, copy, nullable) NSString *launchImageName;
 
 /// Designated initializer
-- (instancetype)initWithTitle:(nullable NSString *)title text:(NSString *)text customActionName:(nullable NSString *)customActionName launchImageName:(nullable NSString *)launchImageName NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithTitle:(nullable NSString *)title text:(nullable NSString *)text customActionName:(nullable NSString *)customActionName launchImageName:(nullable NSString *)launchImageName NS_DESIGNATED_INITIALIZER;
 /**
  Convenience initializer
  @param dict Dictionary found inside "aps" dictionary at key "alert"

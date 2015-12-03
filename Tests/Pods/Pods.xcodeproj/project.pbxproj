@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0955E457FA0CF0F7269209788BE79A53 /* MUKRemoteNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D1530DBB2270E8B620DFD818A0693 /* MUKRemoteNotification.m */; settings = {COMPILER_FLAGS = "-Wdocumentation"; }; };
-		139CC61FDA7ACA713BD3EFDEB90096CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		1A2CCEF84F9155689EA6A10DFA8CB2F2 /* MUKRemoteNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = C585016641726AB94E8F9A3DA29974B8 /* MUKRemoteNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B16B73CDE040ED97A9ABCADC1EED852 /* MUKRemoteNotificationAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F263FDD54EB50A5F42735EAA8BA62F /* MUKRemoteNotificationAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CCD9FB339726E7D37DAF57482FD4123 /* MUKRemoteNotificationAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CD355E0980C3DBE78FFAC3BA9738E /* MUKRemoteNotificationAlert.m */; settings = {COMPILER_FLAGS = "-Wdocumentation"; }; };
 		1B137EFFFE397EB2F1C31C0A8F76BB65 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		1E3066419DBA120D9B627F3C66E53A35 /* MUKRemoteNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D981B2AE96F950DA105305429B21CE /* MUKRemoteNotification-dummy.m */; };
+		2ED42308A8D27CC4AE604296289D3FDD /* MUKRemoteNotificationAlert+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = C51D5E0A1BCDC964DD6878E643E1F8D7 /* MUKRemoteNotificationAlert+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D4754A8F142D096D6D4E9C28091B7F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		6FF9403E98806CE75D31F850AF25BE35 /* MUKRemoteNotificationAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 643F1FB58DD5361FD207D467C3FB8C5D /* MUKRemoteNotificationAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70D662F5DD7CA39B21D9AE3CBCF29A1E /* MUKRemoteNotificationAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F9A988A530D411CDCD974793436A81 /* MUKRemoteNotificationAlert.m */; settings = {COMPILER_FLAGS = "-Wdocumentation"; }; };
+		47C2E482D16A4E21065A50DF6EB629A7 /* MUKRemoteNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = CD42CC2636DC3892F88DA4E480F05FC5 /* MUKRemoteNotification.m */; settings = {COMPILER_FLAGS = "-Wdocumentation"; }; };
+		6CFAC2990657FBD951C5D34BE51AA7B9 /* MUKRemoteNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D981B2AE96F950DA105305429B21CE /* MUKRemoteNotification-dummy.m */; };
+		DB35800A56BF3D2FB71A98EE171D7D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		DBC09BC94280D2A580E61680DA85FADF /* MUKRemoteNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 717C5A412254C40C877AD9A4268B18C3 /* MUKRemoteNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +23,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8FA8F344BE62ECFD3FC4D7ACB2D49D5B;
+			remoteGlobalIDString = 52F2343B2B7444F02273630F33BD7147;
 			remoteInfo = MUKRemoteNotification;
 		};
 /* End PBXContainerItemProxy section */
@@ -32,36 +33,37 @@
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		27D981B2AE96F950DA105305429B21CE /* MUKRemoteNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MUKRemoteNotification-dummy.m"; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39F263FDD54EB50A5F42735EAA8BA62F /* MUKRemoteNotificationAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MUKRemoteNotificationAlert.h; sourceTree = "<group>"; };
+		3D6CD355E0980C3DBE78FFAC3BA9738E /* MUKRemoteNotificationAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MUKRemoteNotificationAlert.m; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		45C61EE28A9019FEBA1CC9DFF42C6639 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		643F1FB58DD5361FD207D467C3FB8C5D /* MUKRemoteNotificationAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MUKRemoteNotificationAlert.h; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		7B2D1530DBB2270E8B620DFD818A0693 /* MUKRemoteNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MUKRemoteNotification.m; sourceTree = "<group>"; };
+		717C5A412254C40C877AD9A4268B18C3 /* MUKRemoteNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MUKRemoteNotification.h; sourceTree = "<group>"; };
 		93F0A4100DFCAC7664BAF3BEB6C225AB /* libMUKRemoteNotification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMUKRemoteNotification.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A3F9A988A530D411CDCD974793436A81 /* MUKRemoteNotificationAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MUKRemoteNotificationAlert.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C585016641726AB94E8F9A3DA29974B8 /* MUKRemoteNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MUKRemoteNotification.h; sourceTree = "<group>"; };
+		C51D5E0A1BCDC964DD6878E643E1F8D7 /* MUKRemoteNotificationAlert+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MUKRemoteNotificationAlert+Localization.h"; sourceTree = "<group>"; };
+		CD42CC2636DC3892F88DA4E480F05FC5 /* MUKRemoteNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MUKRemoteNotification.m; sourceTree = "<group>"; };
 		D160525296F7F0717BD347A6D17D8889 /* MUKRemoteNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MUKRemoteNotification-prefix.pch"; sourceTree = "<group>"; };
 		F6593F08FDCBE2AD22BBA7A0B19A0FA8 /* MUKRemoteNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MUKRemoteNotification.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		74768CBC294C47EE3C2AC1AA01CAC2E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB35800A56BF3D2FB71A98EE171D7D9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8EA0F5227DB9F689A6103B455BDC581 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3D4754A8F142D096D6D4E9C28091B7F1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F061278A5A0153021F753AFAD441D46A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				139CC61FDA7ACA713BD3EFDEB90096CE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,15 +85,6 @@
 				45C61EE28A9019FEBA1CC9DFF42C6639 /* libPods.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4FBD78921F1AA121E970B946EA31D0FA /* Alert */ = {
-			isa = PBXGroup;
-			children = (
-				643F1FB58DD5361FD207D467C3FB8C5D /* MUKRemoteNotificationAlert.h */,
-				A3F9A988A530D411CDCD974793436A81 /* MUKRemoteNotificationAlert.m */,
-			);
-			path = Alert;
 			sourceTree = "<group>";
 		};
 		681105789E4238405502EF73413D4442 /* Support Files */ = {
@@ -124,6 +117,16 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		AFF1824BB7CE169C949DA26ADAEF8DE4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				717C5A412254C40C877AD9A4268B18C3 /* MUKRemoteNotification.h */,
+				CD42CC2636DC3892F88DA4E480F05FC5 /* MUKRemoteNotification.m */,
+				E73E79B64E968AA4E694B0539587085C /* Alert */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +145,7 @@
 		B95DE63BAE203A257BCB2E0564FEFAC4 /* MUKRemoteNotification */ = {
 			isa = PBXGroup;
 			children = (
-				F2EFB42066BF232B98A5F5221F7AB197 /* Classes */,
+				AFF1824BB7CE169C949DA26ADAEF8DE4 /* Classes */,
 				681105789E4238405502EF73413D4442 /* Support Files */,
 			);
 			name = MUKRemoteNotification;
@@ -165,31 +168,49 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F2EFB42066BF232B98A5F5221F7AB197 /* Classes */ = {
+		E73E79B64E968AA4E694B0539587085C /* Alert */ = {
 			isa = PBXGroup;
 			children = (
-				C585016641726AB94E8F9A3DA29974B8 /* MUKRemoteNotification.h */,
-				7B2D1530DBB2270E8B620DFD818A0693 /* MUKRemoteNotification.m */,
-				4FBD78921F1AA121E970B946EA31D0FA /* Alert */,
+				39F263FDD54EB50A5F42735EAA8BA62F /* MUKRemoteNotificationAlert.h */,
+				3D6CD355E0980C3DBE78FFAC3BA9738E /* MUKRemoteNotificationAlert.m */,
+				C51D5E0A1BCDC964DD6878E643E1F8D7 /* MUKRemoteNotificationAlert+Localization.h */,
 			);
-			path = Classes;
+			path = Alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EB676DE5348BF2215CD2ED5C7A1F95E9 /* Headers */ = {
+		BA63A83657F70CBB2B7BCF7924FA1DAD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2CCEF84F9155689EA6A10DFA8CB2F2 /* MUKRemoteNotification.h in Headers */,
-				6FF9403E98806CE75D31F850AF25BE35 /* MUKRemoteNotificationAlert.h in Headers */,
+				DBC09BC94280D2A580E61680DA85FADF /* MUKRemoteNotification.h in Headers */,
+				2ED42308A8D27CC4AE604296289D3FDD /* MUKRemoteNotificationAlert+Localization.h in Headers */,
+				0B16B73CDE040ED97A9ABCADC1EED852 /* MUKRemoteNotificationAlert.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		52F2343B2B7444F02273630F33BD7147 /* MUKRemoteNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56B238F45F6B642B25E3F4AF33CB1A6 /* Build configuration list for PBXNativeTarget "MUKRemoteNotification" */;
+			buildPhases = (
+				42782D73BEFABB1BE6B0A249BBE34BB9 /* Sources */,
+				74768CBC294C47EE3C2AC1AA01CAC2E4 /* Frameworks */,
+				BA63A83657F70CBB2B7BCF7924FA1DAD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MUKRemoteNotification;
+			productName = MUKRemoteNotification;
+			productReference = 93F0A4100DFCAC7664BAF3BEB6C225AB /* libMUKRemoteNotification.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		5705855D4739F691869E3CC331223DF5 /* Pods */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3A7B798F842F44C457E2E46578DE062 /* Build configuration list for PBXNativeTarget "Pods" */;
@@ -205,23 +226,6 @@
 			name = Pods;
 			productName = Pods;
 			productReference = 45C61EE28A9019FEBA1CC9DFF42C6639 /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		8FA8F344BE62ECFD3FC4D7ACB2D49D5B /* MUKRemoteNotification */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3E6E78370BBCBA0EE18376A7CF6CDC5 /* Build configuration list for PBXNativeTarget "MUKRemoteNotification" */;
-			buildPhases = (
-				4D264D5C2A55D4619E13F0343A7D68D3 /* Sources */,
-				F061278A5A0153021F753AFAD441D46A /* Frameworks */,
-				EB676DE5348BF2215CD2ED5C7A1F95E9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MUKRemoteNotification;
-			productName = MUKRemoteNotification;
-			productReference = 93F0A4100DFCAC7664BAF3BEB6C225AB /* libMUKRemoteNotification.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -245,20 +249,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FA8F344BE62ECFD3FC4D7ACB2D49D5B /* MUKRemoteNotification */,
+				52F2343B2B7444F02273630F33BD7147 /* MUKRemoteNotification */,
 				5705855D4739F691869E3CC331223DF5 /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D264D5C2A55D4619E13F0343A7D68D3 /* Sources */ = {
+		42782D73BEFABB1BE6B0A249BBE34BB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E3066419DBA120D9B627F3C66E53A35 /* MUKRemoteNotification-dummy.m in Sources */,
-				0955E457FA0CF0F7269209788BE79A53 /* MUKRemoteNotification.m in Sources */,
-				70D662F5DD7CA39B21D9AE3CBCF29A1E /* MUKRemoteNotificationAlert.m in Sources */,
+				6CFAC2990657FBD951C5D34BE51AA7B9 /* MUKRemoteNotification-dummy.m in Sources */,
+				47C2E482D16A4E21065A50DF6EB629A7 /* MUKRemoteNotification.m in Sources */,
+				0CCD9FB339726E7D37DAF57482FD4123 /* MUKRemoteNotificationAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +280,7 @@
 		87C37C2375410EFD8537D34851F33C0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MUKRemoteNotification;
-			target = 8FA8F344BE62ECFD3FC4D7ACB2D49D5B /* MUKRemoteNotification */;
+			target = 52F2343B2B7444F02273630F33BD7147 /* MUKRemoteNotification */;
 			targetProxy = 0ADD7BD46E3D606AD493D3BC16668D5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -299,25 +303,7 @@
 			};
 			name = Release;
 		};
-		65F0F2A6CFB37E44DB8CB72556223390 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6593F08FDCBE2AD22BBA7A0B19A0FA8 /* MUKRemoteNotification.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MUKRemoteNotification/MUKRemoteNotification-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		6AFD8B2ADF2A099DEAA12D63E39DCFF7 /* Release */ = {
+		9B1C599443C464E4223BCF8856404813 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6593F08FDCBE2AD22BBA7A0B19A0FA8 /* MUKRemoteNotification.xcconfig */;
 			buildSettings = {
@@ -425,6 +411,24 @@
 			};
 			name = Release;
 		};
+		FA4CF7A3733EA39FEF5074926C6DB07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6593F08FDCBE2AD22BBA7A0B19A0FA8 /* MUKRemoteNotification.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MUKRemoteNotification/MUKRemoteNotification-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -437,11 +441,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3E6E78370BBCBA0EE18376A7CF6CDC5 /* Build configuration list for PBXNativeTarget "MUKRemoteNotification" */ = {
+		A56B238F45F6B642B25E3F4AF33CB1A6 /* Build configuration list for PBXNativeTarget "MUKRemoteNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65F0F2A6CFB37E44DB8CB72556223390 /* Debug */,
-				6AFD8B2ADF2A099DEAA12D63E39DCFF7 /* Release */,
+				FA4CF7A3733EA39FEF5074926C6DB07C /* Debug */,
+				9B1C599443C464E4223BCF8856404813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
