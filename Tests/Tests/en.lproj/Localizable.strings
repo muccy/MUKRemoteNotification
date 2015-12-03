@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Tests
+
+  Created by Marco on 03/12/15.
+
+*/
+
+"ALERT_MASK" = "Two words: %@, %@";
+"ACTION" = "Boom";

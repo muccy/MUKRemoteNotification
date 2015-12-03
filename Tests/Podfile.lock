@@ -1,0 +1,14 @@
+PODS:
+  - MUKRemoteNotification (1.0.0)
+
+DEPENDENCIES:
+  - MUKRemoteNotification (from `../`)
+
+EXTERNAL SOURCES:
+  MUKRemoteNotification:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MUKRemoteNotification: 602723a013f12b2a0bd140d836fe7c2f1be1b827
+
+COCOAPODS: 0.39.0
