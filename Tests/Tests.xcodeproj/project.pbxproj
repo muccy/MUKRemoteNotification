@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0605D0A71C1053160055EDCF /* AlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0605D0A61C1053160055EDCF /* AlertTests.m */; };
 		0605D0AE1C10D2250055EDCF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0605D0B01C10D2250055EDCF /* Localizable.strings */; };
+		0605D0B31C10E6130055EDCF /* NotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0605D0B21C10E6130055EDCF /* NotificationTests.m */; };
 		F889BD909CE7058020D50D86 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E69C75984530E2889551F8C5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +18,7 @@
 		0605D0A61C1053160055EDCF /* AlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertTests.m; sourceTree = "<group>"; };
 		0605D0A81C1053160055EDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0605D0AF1C10D2250055EDCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0605D0B21C10E6130055EDCF /* NotificationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationTests.m; sourceTree = "<group>"; };
 		1FA904A0CDF88844B36ABE15 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5C3F03D93AF59FC1B2829790 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E69C75984530E2889551F8C5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +57,7 @@
 		0605D0A51C1053160055EDCF /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				0605D0B21C10E6130055EDCF /* NotificationTests.m */,
 				0605D0A61C1053160055EDCF /* AlertTests.m */,
 				0605D0B01C10D2250055EDCF /* Localizable.strings */,
 				0605D0A81C1053160055EDCF /* Info.plist */,
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0605D0B31C10E6130055EDCF /* NotificationTests.m in Sources */,
 				0605D0A71C1053160055EDCF /* AlertTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

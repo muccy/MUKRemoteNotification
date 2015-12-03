@@ -31,7 +31,7 @@ extern NSString *const MUKRemoteNotificationDefaultSoundName;
  If the sound file doesn’t exist or MUKRemoteNotificationDefaultSoundName is 
  specified as the value, the default alert sound is played.
  */
-@property (nonatomic, readonly, copy, nullable) NSString *soundName;
+@property (nonatomic, readonly, copy) NSString *soundName;
 /**
  It indicates if new content is available. Including this key and value means that 
  when your app is launched in the background or resumed, 
@@ -45,7 +45,7 @@ extern NSString *const MUKRemoteNotificationDefaultSoundName;
 @property (nonatomic, readonly, copy, nullable) NSString *categoryIdentifier;
 
 /// Designated initializer
-- (instancetype)initWithAlert:(nullable MUKRemoteNotificationAlert *)alert badge:(nullable NSNumber *)badge soundName:(nullable NSString *)soundName contentAvailable:(BOOL)contentAvailable categoryIdentifier:(nullable NSString *)categoryIdentifier NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithAlert:(nullable MUKRemoteNotificationAlert *)alert badge:(nullable NSNumber *)badge soundName:(NSString *)soundName contentAvailable:(BOOL)contentAvailable categoryIdentifier:(nullable NSString *)categoryIdentifier NS_DESIGNATED_INITIALIZER;
 /**
  Convenience initializer to use inside -application:didFinishLaunchingWithOptions:
  @param dict The dictionary inside launch options at key UIApplicationLaunchOptionsRemoteNotificationKey
